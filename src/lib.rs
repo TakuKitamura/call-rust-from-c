@@ -1,4 +1,2 @@
-#[no_mangle]
-pub extern "C" fn hello() {
-    println!("Hello, world!");
-}
+pub mod hello;
+pub mod bye;
